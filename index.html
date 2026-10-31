@@ -1,47 +1,112 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Privacy policy | Scoutly</title>
-  <link rel="stylesheet" href="scoutly-theme.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy | Scoutly</title>
+<meta name="description" content="Privacy policy for the Scoutly Chrome extension for Amazon product research.">
+<style>
+  :root { --brand:#12776F; --text:#1c2430; --muted:#5b6774; --bg:#ffffff; --card:#f5f8f9; --line:#dce5ee; }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; padding:0 16px; font:16px/1.6 "Inter","Segoe UI",system-ui,-apple-system,Roboto,sans-serif; color:var(--text); background:var(--bg); }
+  .wrap { max-width:760px; margin:0 auto; padding:28px 0 48px; }
+  h1 { font-size:28px; margin:10px 0 6px; }
+  @media (max-width:480px){ h1{font-size:24px;} }
+  .updated { color:var(--muted); font-size:14px; margin-bottom:20px; }
+  h2 { font-size:19px; margin-top:28px; }
+  ul, ol { padding-left:22px; }
+  li { margin:5px 0; }
+  a { color:var(--brand); }
+  table { border-collapse:collapse; width:100%; font-size:14.5px; margin:8px 0; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--card); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin:16px 0; }
+  footer { margin-top:40px; border-top:1px solid var(--line); padding-top:16px; color:var(--muted); font-size:14px; }
+</style>
 </head>
-<body class="sc-info-page">
-  <main class="sc-info-content">
-    <header class="sc-header scoutly-header" aria-labelledby="privacy-title">
-      <div class="sc-header__copy scoutly-header__copy">
-        <div class="sc-header__label scoutly-header__label">SCOUTLY</div>
-        <h1 class="sc-header__title scoutly-header__title" id="privacy-title">Privacy policy</h1>
-        <p class="sc-header__subtitle scoutly-header__subtitle">Last updated: October 25, 2026</p>
-      </div>
-    </header>
-    <article class="sc-info-article" data-scoutly-privacy-content>
-      <p>Scoutly is a Chrome extension for researching products listed on supported Amazon retail marketplaces. This policy describes the information Scoutly processes and how it is used.</p>
-      <h2>Information Scoutly reads</h2>
-      <p>When you use Scoutly, it reads information displayed on Amazon product and search-result pages. Depending on the page, this may include product names, ASINs, prices, ratings, review counts, Best Sellers Rank, availability, seller details, and Amazon sales badges. Keyword research can process the keyword you enter and Amazon's suggested search terms. The profit calculator can store values you enter, such as product cost, shipping, and fees. The tracker stores observations and your tracker settings.</p>
-      <p>Scoutly uses these details to show product research, calculate sales and revenue estimates, calculate potential profit, maintain tracking history, and provide exports and backups. Sales and revenue are estimates derived from page signals; they are not actual seller order records.</p>
-      <h2>Information and local storage</h2>
-      <p>Scoutly stores tracker data and history, settings, keyword research history, calculator inputs, and temporary caches in Chrome extension storage on your device. This information is not sent to the developer. Scoutly has no analytics, advertising, accounts, or data sale or sharing.</p>
-      <p>When you browse Amazon or run research, Scoutly reads Amazon pages and may request Amazon completion and suggestions endpoints. Amazon receives those requests and handles them under its own policies. Scoutly may open a temporary helper view to read Amazon pages for research or tracker checks.</p>
-      <p>Scoutly requests exchange-rate data from cdn.jsdelivr.net. The request downloads a public data file and contains no user or product data.</p>
-      <h2>Requests and Quick View</h2>
-      <p>Quick View reads the ASIN and visible brand from Amazon search results. Only after you click Alibaba, Scoutly fetches the product image from an Amazon image host and supplies it to Alibaba through Alibaba's own page. The image is sent only to Alibaba; Scoutly has no server involved. If the image cannot be used, Alibaba keyword search opens. The 1688 action opens a keyword link based on the product title and does not upload an image.</p>
-      <h2>Scheduled checks and notifications</h2>
-      <p>Scheduled tracker checks are off by default. If enabled, Chrome periodically reads Amazon product pages. Notifications are created locally by Chrome.</p>
-      <h2>Retention and deletion</h2>
-      <p>Data remains in Chrome's extension storage until you remove it using Scoutly's controls, clear extension data, or uninstall the extension. Exported files are saved where you choose and are controlled by you. Uninstalling Scoutly or clearing its storage may remove data that has not been exported.</p>
-      <h2>Security</h2>
-      <p>Scoutly uses Chrome's local extension storage and does not maintain a Scoutly account or backend. Protect access to your Chrome profile and exported backup files.</p>
-      <h2>Limited Use</h2>
-      <p>Scoutly's use and transfer of information received from Google APIs, if any, adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. Scoutly does not collect or transmit personal user data to its developer.</p>
-      <h2>Children</h2>
-      <p>Scoutly is not designed for or directed to children, and Scoutly does not knowingly collect information from children.</p>
-      <h2>Policy changes and contact</h2>
-      <p>Changes will be reflected in this policy and noted in extension release information. Contact: <a href="mailto:hudaidkhan189@gmail.com">hudaidkhan189@gmail.com</a>.</p>
-      <p data-scoutly-privacy-contact hidden>Contact support</p>
-      <p data-scoutly-privacy-online hidden><a data-scoutly-privacy-link target="_blank" rel="noopener noreferrer">View the latest version online</a></p>
-    </article>
-  </main>
-  <script src="scoutly-nav.js"></script><script src="shell.js"></script>
+<body>
+<div class="wrap">
+<h1>Privacy policy — Scoutly</h1>
+<p class="updated">Last updated: November 1, 2026 · Applies to Scoutly version 5.6.0</p>
+
+<p>Scoutly is a Chrome extension for researching products listed on supported Amazon retail marketplaces. This policy describes the information Scoutly processes and how it is used. Scoutly is not affiliated with or endorsed by Amazon.</p>
+<p><strong>Contact:</strong> Muhammad Hudaid Ahmad Rabbani · <a href="mailto:hudaidkhan189@gmail.com">hudaidkhan189@gmail.com</a></p>
+
+<h2>What Scoutly does in one line</h2>
+<p>Scoutly's single purpose: to help sellers research Amazon products — reading listing information, building sales and profit estimates, and tracking products over time. Sales and revenue figures are <strong>estimates</strong> derived from public page signals; they are not actual seller order records.</p>
+
+<h2>Information Scoutly reads</h2>
+<p>When you use Scoutly, it reads information displayed on Amazon product and search-result pages that you open or that you ask Scoutly to look up. Depending on the page, this may include:</p>
+<ul>
+<li>product names, brands, ASINs, product images and links;</li>
+<li>prices and currencies;</li>
+<li>ratings, review counts, and Amazon sales badges;</li>
+<li>Best Sellers Rank (BSR);</li>
+<li>availability, seller counts, and general offer information.</li>
+</ul>
+<p>Keyword research can process the keyword you enter and Amazon's suggested search terms. The profit calculator stores the values you enter, such as product cost, shipping, and fees. The tracker stores observations of the products you track and your tracker settings.</p>
+<p>Scoutly uses these details to show product research, calculate sales and revenue estimates, calculate potential profit, maintain tracking history, and provide exports and backups.</p>
+
+<h2>Where your data is kept</h2>
+<p><strong>Everything Scoutly stores stays on your device. Scoutly has no analytics, no advertising, no user accounts, and it does not sell, rent, or share your data. Nothing is sent to the developer — Scoutly does not have a server.</strong></p>
+<p>Scoutly keeps data in three places inside your browser:</p>
+<ol>
+<li><strong>Chrome's local extension storage (<code>chrome.storage.local</code>)</strong> — stored until you delete it or uninstall: tracker products and their history, your settings (including scheduled-check preferences and stop words), recent lookups (capped at 20 entries), saved keyword research and its caches, calculator inputs and drafts, the exchange-rate cache, and sales-estimate calibration data used to keep estimates consistent for products you revisit.</li>
+<li><strong>Chrome's temporary session storage (<code>chrome.storage.session</code>)</strong> — used only while Chrome is open (for example: which of Scoutly's single-purpose reader windows are running, quick-view usage throttles, and sourcing tasks). Chrome clears it automatically when the browser closes; it is never synced or sent anywhere.</li>
+<li><strong>Your browser's local storage</strong> — one small preference: which X-Ray columns you have hidden on the Product Research page.</li>
+</ol>
+
+<h3>Retention</h3>
+<p>Tracker history keeps full detail for the last 30 days; older snapshots are thinned to one snapshot per day, and the whole history is capped at 1,500 entries per product. Quick-view product caches expire after 1 day. Recent lookups keep the 20 latest entries. Data in session storage is cleared automatically whenever you close Chrome.</p>
+
+<h3>Deleting your data</h3>
+<p>Use <strong>Settings → Data &amp; storage → Clear all tracker data</strong> in Scoutly to delete tracked products and history (Scoutly first offers to save a backup file). Clearing extension data in Chrome, or uninstalling Scoutly, removes all extension storage on your device. Deleting your browser's local storage removes the X-Ray column preference.</p>
+
+<h3>Exports and backups</h3>
+<p>Exports (CSV or JSON) are created in your browser and saved to files in the location you choose. Scoutly does not transmit them anywhere. Exported files contain the tracked data shown in the extension; they are yours — keep them safe.</p>
+
+<h2>Requests Scoutly makes</h2>
+<table>
+<tr><th>Request</th><th>What it contains</th><th>Any of your data?</th></tr>
+<tr><td><strong>Amazon pages</strong> (supported marketplace origins) — product and search pages you open, pages of lookups you start, and, if you enable scheduled checks, tracked product pages</td><td>The page itself</td><td>These requests happen inside Amazon's own site, like the page loads from your browsing; they may include your standard Amazon browsing context under Amazon's own privacy practices. Scoutly does not add any identifiers of its own to them.</td></tr>
+<tr><td><strong><code>completion.amazon.&lt;marketplace&gt;</code></strong> — Amazon's public search-suggestion endpoint, used by keyword research</td><td>Your keyword prefix and a marketplace identifier only</td><td>No account, address, or other personal data.</td></tr>
+<tr><td><strong><code>cdn.jsdelivr.net</code></strong> — the daily public exchange-rate table (open-source fawazahmed0/currency-api)</td><td>A plain file download</td><td>No user or product data.</td></tr>
+<tr><td><strong>Amazon image hosts (<code>m.media-amazon.com</code>, <code>images-na.ssl-images-amazon.com</code>)</strong> — only when you use the Alibaba "find suppliers" action: Scoutly downloads the product's public image to attach to Alibaba's image-search</td><td>The public image file the page already shows</td><td>No cookies; no other data.</td></tr>
+<tr><td><strong><code>alibaba.com</code> / <code>1688.com</code></strong> — only when you click "find suppliers": Scoutly fills Alibaba's image search (with the product image) or opens a keyword search in the browser tab; product-title keywords may be used for a 1688 keyword link</td><td>The product image URL/keywords of the product you are researching</td><td>Scoutly has no server involved; Alibaba receives the image or keyword search only when you use the action.</td></tr>
+</table>
+<p>Scoutly may open a <strong>temporary, single-purpose Chrome window</strong> to read an Amazon page (for example, for a single-product lookup, an X-Ray scan, a scheduled tracker check, or an automatic quick-view read). The window is closed automatically right after the read. Quick-view reads are deliberately throttled (small delays between reads, a rolling limit per 10 minutes, and a per-product cooldown).</p>
+
+<h2>Scheduled checks and notifications</h2>
+<p>Scheduled tracker checks are <strong>off by default</strong>. If you enable them (Settings → Tracker → Background checks), Chrome reads your tracked product pages on the interval you choose (every 3–24 hours) while Chrome is open, so history continues building. Notifications are created locally by Chrome when a check finds a price or rank alert; they are never sent anywhere and contain alert text only.</p>
+
+<h2>Security</h2>
+<p>Because Scoutly processes and keeps data locally in your browser, data does not pass through any Scoutly-operated server. Protect access to your Chrome profile and any exported backup files.</p>
+
+<h2>Children</h2>
+<p>Scoutly is not designed for or directed to children, and Scoutly does not knowingly collect information from children.</p>
+
+<h2>Limited Use</h2>
+<p>Scoutly's use and transfer of information received from Google APIs, if any, adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. Scoutly does not use or transfer user data outside the purposes disclosed here, does not sell user data, does not use it for advertising, and does not allow any human to read it. Scoutly does not collect or transmit personal user data to its developer.</p>
+
+<h2>Permissions Scoutly requests, in plain words</h2>
+<ul>
+<li><strong>storage</strong> — keeps all the data described above on this device.</li>
+<li><strong>alarms</strong> — runs the optional scheduled tracker refresh (off by default).</li>
+<li><strong>notifications</strong> — shows locally generated desktop notifications for tracker alerts.</li>
+<li><strong>Amazon hosts (<code>www.amazon.*</code> and <code>completion.amazon.*</code>)</strong> — read listing pages and keyword suggestions for the marketplaces Scoutly supports.</li>
+<li><strong><code>cdn.jsdelivr.net</code></strong> — exchange-rate data for currency conversion.</li>
+<li><strong><code>*.alibaba.com</code></strong> — the "find suppliers" action.</li>
+<li><strong>Amazon image hosts</strong> — pick up the product image for the Alibaba image search.</li>
+</ul>
+
+<h2>Changes to this policy</h2>
+<p>Changes will be reflected on this page and its "Last updated" date, and will be noted in extension release information.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <strong><a href="mailto:hudaidkhan189@gmail.com">hudaidkhan189@gmail.com</a></strong></p>
+
+<footer>Scoutly is not affiliated with or endorsed by Amazon. Sales and revenue figures in Scoutly are estimates derived from public page signals (such as sales badges and Best Sellers Rank). They are not actual seller order records and should not be treated as such.</footer>
+</div>
 </body>
 </html>
